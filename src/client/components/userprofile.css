@@ -1,0 +1,70 @@
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  color: #000; /* Changed text color */
+  border-radius: 10px; /* Increased border-radius for a softer look */
+  box-shadow: 2px 2px 4px 6px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+  width: 80%; /* Adjusted width for responsiveness */
+  max-width: 500px; /* Added max-width for larger screens */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.user-profile-container .profile-name {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: -webkit-linear-gradient(
+    right,
+    #56d8e4,
+    #9f01ea,
+    #56d8e4,
+    #9f01ea
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-profile-container p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #56d8e4;
+}
+
+.user-profile-container button {
+  padding: 10px 20px;
+  background-color: #56d8e4; /* Changed button color */
+  color: #fff; /* Changed text color */
+  border: none; /* Removed border */
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-profile-container button:hover {
+  background-color: #9f01ea; /* Darker background color on hover */
+}
+
+.user-profile-container .follow-btn {
+  margin-top: 20px; /* Adjusted margin for better spacing */
+  background-color: #9f01ea; /* Changed follow button color */
+}
+
+.user-profile-container .follow-btn.secondary {
+  margin-left: 10px;
+  background: transparent;
+  color: #56d8e4; /* Changed text color */
+  border: 2px solid #56d8e4; /* Added border */
+}
+
+.user-profile-container .follow-btn.secondary:hover {
+  background: #56d8e4; /* Changed background color on hover */
+  color: #fff; /* Changed text color on hover */
+}
+
+.user-profile-container .profile-about {
+  margin-top: 20px; /* Adjusted margin for better spacing */
+  text-align: center;
+}
