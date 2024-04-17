@@ -32,7 +32,7 @@ const Login = () => {
         localStorage.setItem("userID", userID);
 
         // Redirect to '/profile' after successful login
-        navigate("/profile");
+        navigate("/user-main");
       } else {
         setError("Invalid credentials. Please try again.");
       }

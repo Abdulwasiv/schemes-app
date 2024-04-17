@@ -10,6 +10,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+.A{
+  color: red;
+}
 /* Heading Styles */
 .home h1 {
   font-size: 3rem; /* Increase font size */

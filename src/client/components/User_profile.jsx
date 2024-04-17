@@ -29,20 +29,7 @@ const UserProfile = () => {
   };
 
   return (
-    // <div className="container">
-    //   {userData ? (
-    //     <div className="profile-name">{userData.name}</div>
-    //       <p>Register Number: {userData.registerNumber}</p>
-    //       <p>Gender: {userData.gender}</p>
-    //       <p>Age: {userData.age}</p>
-    //       <p>City: {userData.city}</p>
-    //       <p>Community: {userData.community}</p>
-    //       <p>Differently Abled: {userData.differentlyAbled ? "Yes" : "No"}</p>
-    //       <button onClick={handleLogout}>Logout</button>
-    //   ) : (
-    //     <p>Loading user profile...</p>
-    //   )}
-    // </div>
+    
     <div className="user-profile-container">
       {userData ? (
         <div className="profile-name">{userData.name}</div>
